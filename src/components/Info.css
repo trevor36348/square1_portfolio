@@ -1,0 +1,43 @@
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+}
+
+.SubsectionContainer {
+    display: flex;
+    flex-direction: row;
+
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .SubPic {
+    display: flex;
+    align-items: center;
+    flex: 1 0 70%;
+  }
+
+  .pic1 {
+    object-fit: cover;
+    width: auto;
+    height: 10%;
+    padding-left: 5%;
+  }
+
+  .SubInfo {
+    display: flex;
+  
+    max-width: 400px;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    padding-right: 2%;
+    top: 45%
+  }
+  
+  .SubInfo p {
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+  }

@@ -1,0 +1,60 @@
+
+.Background {
+  padding-top: 90px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  max-width: 100%;
+  height: auto;
+
+  background-size: cover;
+  background-image: url('./HumberBG01.png');
+
+  background-color: rgb(0, 0, 0);
+}
+
+.fsection {
+  background-color: rgba(25, 25, 25, 0.8);
+  width:80%;
+  text-align:left;
+
+  padding: 10px;
+  margin:0 auto;
+  height: 558px;
+}
+
+.fsection p {
+  padding-bottom: 40px;
+  font-size: 12px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+input[type="submit"] {
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(55, 55, 55);
+}
